@@ -1,0 +1,7 @@
+package handler;
+
+public class FileHandler {
+
+	private static Logger log = LoggerFactory.getLogger(FileHandler.class);
+	
+}

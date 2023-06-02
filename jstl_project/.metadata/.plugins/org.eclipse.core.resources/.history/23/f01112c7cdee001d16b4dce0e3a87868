@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%=request.getParameter("name")%>
+	<%=request.getParameter("age")%>
+
+	${param.name}
+	${param.age}
+	
+	
+	<%-- <c:choose>
+		<c:when test="">
+			<h3>성인입니다.</h3>
+		</c:when>
+		<c:when test="">
+			<h3>청소년입니다.</h3>
+		</c:when>
+		<c:when test="">
+			<h3>유아입니다.</h3>
+		</c:when>
+		<c:otherwise>
+			<h3>아직 태어나지 않았습니다.</h3>
+		</c:otherwise>
+	</c:choose> --%>
+</body>
+</html>

@@ -1,0 +1,12 @@
+package repository;
+
+import domain.ProductVO;
+
+public class DAO {
+
+	public int insert(ProductVO pvo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

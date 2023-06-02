@@ -1,0 +1,64 @@
+package repository;
+
+import java.util.List;
+
+import domain.BoardVO;
+import domain.PagingVO;
+
+public class BoardBDAOImpl implements BoardDAO {
+
+	@Override
+	public int totCount(PagingVO pgvo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int insert(BoardVO bvo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<BoardVO> selectList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public BoardVO detail(int bno) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int delete(int bno) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int updateCount(int bno) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<BoardVO> pageList(PagingVO pgvo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int update(BoardVO bvo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String selectRemoveFile(int bno) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

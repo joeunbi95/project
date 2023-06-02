@@ -1,0 +1,43 @@
+package repository;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import domain.ProductVO;
+import orm.DatabaseConnector;
+
+public class ProductDAO implements DAO {
+	
+	//DB Connector
+	private Connection conn;
+	//DB 연결후 SQL 전송 객체
+	private PreparedStatement pst;
+	//쿼리문 작성 변수
+	private String qurey="";
+	
+	public ProductDAO() {
+		//싱글톤 방식의 객체 생성 방식
+		DatabaseConnector dbc = DatabaseConnector.getInstance();
+		conn = dbc.getConnection();
+	}
+	
+	public int insert(ProductVO pvo) {
+		System.out.println(">>> DAO 접근완료");
+		qurey="insert into product(pname,price,madeby) values(?,?,?)";
+		try {
+			pst = conn.prepareStatement(qurey);
+			pst.setString(1, pvo.getPname());
+			pst.setInt(2, pvo.getPrice());
+			pst.setString(3, pvo.getMadeby());
+			/* Update => insert, update, delete 처럼 내용 변경 */
+			/* Query => select에서 사용 */
+			return pst.executeUpdate();
+		} catch (SQLException e) {
+			// TODO: handle exception
+			System.out.println("insert query error");
+			e.printStackTrace();
+		}
+		return 0;
+	}
+}

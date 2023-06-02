@@ -1,0 +1,44 @@
+<%@page import="java.util.ArrayList"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="model.PersonVO" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	table {
+	border: 1px solid black;
+}
+</style>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<% 
+		//PersonVO 객체를 이용하여 list에 여러명을 추가 (5명)
+		//list를 request 객체에 담아 jsp로 전송
+		ArrayList<PersonVO> list = new ArrayList<>();
+		list.add(new PersonVO("홍길동",35));
+		list.add(new PersonVO("강감찬",45));
+		list.add(new PersonVO("신사임당",25));
+		list.add(new PersonVO("홍길순",15));
+		list.add(new PersonVO("김길동",5));
+		session.setAttribute("p", list);
+	%>
+		
+	<%-- 테이블을 생성하여 list를 출력 --%>
+	<table>
+		<tr>
+			<th>이름</th>
+			<td>${p[0].name }</td>
+		</tr>
+		<tr>
+			<th>이름 : </th>
+		</tr>
+		<tr>
+			<th>이름 : </th>
+		</tr>
+	</table>
+</body>
+</html>

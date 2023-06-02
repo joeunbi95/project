@@ -1,0 +1,85 @@
+
+5월 09, 2023 15:56:27.825 NEW SESSION
+5월 09, 2023 15:56:27.825 [1428:3932:0509/155627.825:ERROR:device_event_log_impl.cc(222)] [15:56:27.824] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 09, 2023 15:56:27.872 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+5월 09, 2023 16:48:48.845 NEW SESSION
+5월 09, 2023 16:48:48.845 [4228:7588:0509/164848.845:ERROR:device_event_log_impl.cc(222)] [16:48:48.844] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 09, 2023 16:48:48.887 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 09, 2023 16:57:33.191 [4228:7588:0509/165733.190:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:33.292 [4228:7588:0509/165733.292:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:33.442 [4228:7588:0509/165733.442:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:33.902 [4228:7588:0509/165733.902:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:34.923 [4228:7588:0509/165734.923:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:35.39 [4228:7588:0509/165735.039:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:36.915 [4228:7588:0509/165736.915:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:37.22 [4228:7588:0509/165737.022:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:37.144 [4228:7588:0509/165737.144:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:48.650 [4228:7588:0509/165748.650:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:48.757 [4228:7588:0509/165748.756:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:50.123 [4228:7588:0509/165750.123:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:50.240 [4228:7588:0509/165750.240:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:51.14 [4228:7588:0509/165751.014:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:51.123 [4228:7588:0509/165751.123:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:51.241 [4228:7588:0509/165751.241:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:52.155 [4228:7588:0509/165752.155:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:52.272 [4228:7588:0509/165752.272:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:53.957 [4228:7588:0509/165753.957:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:54.72 [4228:7588:0509/165754.072:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:55.35 [4228:7588:0509/165755.035:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:55.140 [4228:7588:0509/165755.140:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:58.821 [4228:7588:0509/165758.821:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:58.947 [4228:7588:0509/165758.947:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:59.411 [4228:7588:0509/165759.411:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:57:59.523 [4228:7588:0509/165759.523:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:58:00.442 [4228:7588:0509/165800.442:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:58:00.556 [4228:7588:0509/165800.556:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:58:01.450 [4228:7588:0509/165801.450:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:58:01.556 [4228:7588:0509/165801.556:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:58:03.955 [4228:7588:0509/165803.955:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:58:04.71 [4228:7588:0509/165804.071:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:58:04.189 [4228:7588:0509/165804.189:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 16:58:04.564 [4228:7588:0509/165804.564:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.7 s for first_image_paint 0.684 s
+5월 09, 2023 17:07:48.461 [10160:10116:0509/170748.461:ERROR:device_event_log_impl.cc(222)] [17:07:48.461] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 09, 2023 17:07:48.513 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 09, 2023 17:08:01.176 [7924:2456:0509/170801.176:ERROR:device_event_log_impl.cc(222)] [17:08:01.175] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 09, 2023 17:08:01.219 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 09, 2023 17:11:06.884 [11000:9900:0509/171106.884:ERROR:device_event_log_impl.cc(222)] [17:11:06.883] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 09, 2023 17:11:06.927 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 09, 2023 17:24:51.744 [5156:7664:0509/172451.744:ERROR:device_event_log_impl.cc(222)] [17:24:51.744] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 09, 2023 17:24:51.786 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+5월 10, 2023 09:17:34.900 NEW SESSION
+5월 10, 2023 09:17:34.901 [5256:5968:0510/091734.900:ERROR:device_event_log_impl.cc(222)] [09:17:34.899] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 10, 2023 09:17:35.51 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 10, 2023 09:31:49.90 [5256:5968:0510/093149.090:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 10, 2023 09:31:49.90 [5256:5968:0510/093149.090:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 10, 2023 09:31:49.90 [5256:5968:0510/093149.090:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 10, 2023 09:32:57.49 [5256:7412:0510/093257.049:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 10, 2023 09:33:07.786 [5256:7412:0510/093307.785:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 10, 2023 09:53:58.225 [8048:8088:0510/095358.225:ERROR:device_event_log_impl.cc(222)] [09:53:58.225] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 10, 2023 09:53:58.277 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 10, 2023 10:03:23.237 [6624:3944:0510/100323.237:ERROR:device_event_log_impl.cc(222)] [10:03:23.237] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 10, 2023 10:03:23.281 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 10, 2023 10:51:36.722 [7696:2184:0510/105136.722:ERROR:device_event_log_impl.cc(222)] [10:51:36.722] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 10, 2023 10:51:36.937 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 10, 2023 11:29:31.390 [1880:4872:0510/112931.390:ERROR:device_event_log_impl.cc(222)] [11:29:31.390] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 10, 2023 11:29:31.433 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 10, 2023 11:50:33.946 [1948:4276:0510/115033.946:ERROR:device_event_log_impl.cc(222)] [11:50:33.946] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 10, 2023 11:50:34.55 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 10, 2023 11:50:42.653 [7144:8536:0510/115042.653:ERROR:device_event_log_impl.cc(222)] [11:50:42.653] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 10, 2023 11:50:42.704 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 10, 2023 12:47:13.393 [3048:6424:0510/124713.393:ERROR:device_event_log_impl.cc(222)] [12:47:13.392] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 10, 2023 12:47:13.531 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 10, 2023 12:47:40.691 [4916:7928:0510/124740.691:ERROR:device_event_log_impl.cc(222)] [12:47:40.690] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 10, 2023 12:47:40.733 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 10, 2023 12:56:45.85 [3900:9656:0510/125645.085:ERROR:device_event_log_impl.cc(222)] [12:56:45.085] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 10, 2023 12:56:45.128 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 10, 2023 12:58:35.286 [2212:6752:0510/125835.286:ERROR:device_event_log_impl.cc(222)] [12:58:35.285] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 10, 2023 12:58:35.327 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 10, 2023 12:59:34.794 [800:4876:0510/125934.794:ERROR:device_event_log_impl.cc(222)] [12:59:34.794] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 10, 2023 12:59:34.836 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 10, 2023 14:26:57.115 [8892:6552:0510/142657.115:ERROR:device_event_log_impl.cc(222)] [14:26:57.114] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 10, 2023 14:26:57.166 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 10, 2023 14:42:01.401 [6332:6908:0510/144201.401:ERROR:device_event_log_impl.cc(222)] [14:42:01.400] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 10, 2023 14:42:01.554 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.

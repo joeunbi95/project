@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="org.apache.tomcat.dbcp.pool2.SwallowedExceptionListener"/>
+    <fullyQualifiedTypeName name="controller.MemberController"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactoryBuilder"/>
+    <fullyQualifiedTypeName name="javax.annotation.Resource"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactory"/>
+    <fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
+    <fullyQualifiedTypeName name="service.MemberService"/>
+    <fullyQualifiedTypeName name="repository.MemberDAO"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+    <fullyQualifiedTypeName name="repository.MemberDAOImpl"/>
+    <fullyQualifiedTypeName name="orm.DatabaseBuilder"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="controller.BoardController"/>
+    <fullyQualifiedTypeName name="service.BoardService"/>
+    <fullyQualifiedTypeName name="repository.BoardDAOImpl"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="controller.CommentController"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.JsonParser"/>
+    <fullyQualifiedTypeName name="service.CommentServiceImpl"/>
+    <fullyQualifiedTypeName name="repository.CommentDAOImpl"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.JsonArray"/>
+    <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="org.json.simple.parser.JSONParser"/>
+    <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
+    <fullyQualifiedTypeName name="domain.CommentVO"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="domain.PagingVO"/>
+    <fullyQualifiedTypeName name="handler.PagingHandler"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="domain.MemberVO"/>
+    <fullyQualifiedTypeName name="domain.BoardVO"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="service.BoardServiceImpl"/>
+</qualifiedTypeNameHistroy>

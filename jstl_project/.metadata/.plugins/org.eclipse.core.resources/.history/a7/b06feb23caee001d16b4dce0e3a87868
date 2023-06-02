@@ -1,0 +1,49 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>   
+<%@ page import="model.PersonVO" %> 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSTL choose</title>
+</head>
+<body>
+	<%-- model 안에 PersonVO class 생성 멤버변수는 name, age 만 추가 생성자 getter/setter만 추가 --%>
+	
+	
+	<%-- EL 방식으로 name, age를 출력 --%>
+	
+	<%
+		PersonVO p = new PersonVO("알감자",29);
+		request.setAttribute("ps", p);
+	%>
+		
+	이름 : ${ps.name}<br>
+	나이 : ${ps.age}살<br>
+	
+	
+	<hr>
+	
+	<%-- 나이가 20살 이상이면 성인입니다. --%>
+	
+	<c:if test="${ps.age>20 }">
+		나이가 20살 이상이면 출력 >> 성인입니다.
+	</c:if>
+	
+	<hr>
+	
+	<c:choose>
+		<c:when test="${ps.name == '감자'}">
+			<h2>저는 감자입니당 :)</h2>
+		</c:when>
+		<c:when test="${ps.name == '고구마'}">
+			<h2>저는 고구마입니당 :)</h2>
+		</c:when>
+		<c:otherwise>
+			<h2>저는 무명입니당 :(</h2>
+		</c:otherwise>
+	</c:choose>
+	
+</body>
+</html>

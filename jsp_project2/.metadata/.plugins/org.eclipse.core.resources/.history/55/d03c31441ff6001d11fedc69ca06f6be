@@ -1,0 +1,33 @@
+package repository;
+
+import org.apache.ibatis.session.SqlSession;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import domain.CommentVO;
+import orm.DatabaseBuilder;
+
+public class CommentDAOImpl implements CommentDAO {
+	
+	private static final Logger log = LoggerFactory.getLogger(CommentDAOImpl.class);
+	private SqlSession sql;
+	private String NS = "Commentmapper.";
+	private int isOk;
+	
+	public CommentDAOImpl() {
+		new DatabaseBuilder();
+		sql = DatabaseBuilder.getFactory().openSession();
+	}
+	
+	@Override
+	public int post(CommentVO cvo) {
+		log.info(">>> post DAO 진입");
+		isOk = sql.insert(NS+"reg", cvo);
+		if(isOk>0) {
+			log.info("DB저장완료");
+			sql.commit();
+		}
+		return isOk;
+	}
+
+}
